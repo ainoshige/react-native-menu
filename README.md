@@ -68,6 +68,7 @@ child in order for the menu to actually do anything.
 The `MenuOption` component can take *any* children.
 
 Please refer to the full working example [here](./Example/Example.js).
+
 **Important2:** In order to make Menu appears in right position if you use others drawer, you need add prop `lazyRender` to `MenuContext`
 ```
 <MenuContext lazyRender={200}>
